@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reserva realizada</title>
+</head>
+<body>
+
+	<center>
+		<form>
+		  <label for="fecha">Día:</label>
+		  <input type="date" id="fecha" name="date" required/>
+  
+		  <label for="hora">Hora:</label>
+		  <input type="time" id="hora" name="hora" required/>
+  
+		  <br />
+		  <br />
+		  <label for="boletos">No. boletos:</label>
+		  <input type="number" id="boletos" name="boletos" required/>
+  
+		  <br />
+		  <br />
+		  <label for="asientos">No. asientos:</label>
+		  <input type="number" id="asientos" name="asientos" required/>
+  
+		  <br />
+		  <br />
+		  <button formmethod="post" onclick="alert('Se ha realizado la reserva')">Reservar</button>
+		</form>
+  
+		<br />
+		<br />
+		<a href="index.html">Inicio</a>
+	  </center>
+
+
+</body>
+</html>
